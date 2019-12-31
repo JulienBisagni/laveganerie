@@ -1,0 +1,15 @@
+@import "recipe.scss";
+@import "searchBar.scss";
+.search{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(255,236,210,0.2) 0%, rgba(255,2100,210,0.2) 100%), url("../images/food-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px;
+}
